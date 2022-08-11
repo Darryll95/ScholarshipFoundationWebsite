@@ -16,13 +16,26 @@ function Sidebar() {
             </p>
         </div>
         <div className="sidebarItem">
-        <span className="sidebarTitle">Categories</span>
+        <span className="sidebarTitle">Need to add things here</span>
         <ul className="sidebarList">
-            <li className="sidebarListitem">
-                <li className="sidebarListitem"></li>
-            </li>
+                <li className="sidebarListitem">
+                <li className="sidebarListitem">empty</li>
+                <li className="sidebarListitem">empty</li>
+                <li className="sidebarListitem">empty</li>
+                <li className="sidebarListitem">empty</li>
+                <li className="sidebarListitem">empty</li>
+                </li>
         </ul>
+        </div>
+        <div className="sidebarItem">
+            <span className="sidebarTitle">You can follow us here</span>
+            <div className="sidebarSocial">
+            <i className="sidebarIcon fa-solid fa-file-pdf"></i>
+            <i className="sidebarIcon fa-solid fa-paper-plane"></i>
+            <i className="sidebarIcon fa-solid fa-location-pin"></i>
 
+
+            </div>
         </div>
     </div>
   )
